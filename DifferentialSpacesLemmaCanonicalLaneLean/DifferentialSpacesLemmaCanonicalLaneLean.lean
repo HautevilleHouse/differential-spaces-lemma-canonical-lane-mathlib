@@ -1,0 +1,20 @@
+-- This module is the root of the DifferentialSpacesLemmaCanonicalLaneLean Lean proof package.
+import DifferentialSpacesLemmaCanonicalLaneLean.AdmissibleClass
+import DifferentialSpacesLemmaCanonicalLaneLean.BridgeLemmas
+import DifferentialSpacesLemmaCanonicalLaneLean.GateLemmas
+import DifferentialSpacesLemmaCanonicalLaneLean.FinalTheorem
+import DifferentialSpacesLemmaCanonicalLaneLean.RiemannianCurvature
+import DifferentialSpacesLemmaCanonicalLaneLean.CurvatureInvariant
+import DifferentialSpacesLemmaCanonicalLaneLean.ConnectionTheory
+import DifferentialSpacesLemmaCanonicalLaneLean.IndexTheorem
+import DifferentialSpacesLemmaCanonicalLaneLean.Holonomy
+import DifferentialSpacesLemmaCanonicalLaneLean.DifferentialSpacesContext
+
+namespace HautevilleHouse
+namespace DifferentialSpacesLemmaCanonicalLaneLean
+
+def packageName : String := "DifferentialSpacesLemmaCanonicalLaneLean"
+def packageDescription : String := "Differential Spaces Lemma — curvature invariants, connection theory, index theorems, holonomy"
+
+end DifferentialSpacesLemmaCanonicalLaneLean
+end HautevilleHouse
